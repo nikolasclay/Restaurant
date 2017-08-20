@@ -1,16 +1,16 @@
 h1 {
-    color:black;
-    font-family: cursive;
+	font-size: 28px;
+	font-family: 'Raleway', sans-serif;
+	color: #4c5775;
+	line-height: 1.15em;
+    margin: 20px 0;
     text-align: center;
-    
 }
-
 footer {
     text-align: center;
     background-color: black;
     color: white;
 }
-
 a:link{
     color: blue;
     text-decoration: none;
@@ -50,7 +50,7 @@ th, td {
     border-top: 0;
 }
 .table{
-    display: inline-block;
+    display: inline-table;
     border-top: none;
     border-bottom: none;
     border-right: none;
@@ -74,16 +74,10 @@ button{
     
 }
 img{
-    height: 800px;
-    width: 800px;
-}
-#logo{
-    height: 25px;
-    width: 200px;
-}
-#drink{
-    height: 90%;
-    width: 800px;
+    height: 900px;
+    width: 900px;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 .carousel-caption{
 top: 0;
@@ -93,5 +87,30 @@ bottom: auto;
     height: 150px;
     width: 175px;
 }
+#drink{
+    height: 700px;
+}
+header img {
+    float:left;
+    width: 200px;
+    height: 75px;
+ }
+    
+header {
+	min-height: 50px;
+	padding: 5px;
+        overflow:hidden;
+    background-color: black;
+}
 
+/* -------------- NAVIGATION  ----------- */
+
+header nav {
+    float:left;
+    margin-top:50px;
+    }
+li{
+    display: inline;
+    padding: 10px;
+}
 
